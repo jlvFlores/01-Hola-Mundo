@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class BodyComponent {
 
+    mostrar = false;
+
+    frase: any = {
+        autor: 'Stan',
+        mensaje: 'Gran poder bla bla'
+
+    };
+
+    personajes: string[] = ['cat', 'dog', 'catdog'];
+
 }
